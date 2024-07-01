@@ -1,0 +1,58 @@
+body{
+    background-color: #272b30;
+}
+a ,p ,h1 ,h3 ,span{
+    color: white !important;
+}
+p{
+    font-size: smaller !important;
+}
+.card-footer span{
+    font-size: 0.5rem !important;
+}
+
+header{
+    background-image: url(../images/wraper.png);
+    background-size: cover;
+    height:30vh ;
+}
+nav{
+    background-color: #3a497b !important;
+    margin-inline: auto;
+    margin-top: -30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0 0 0 0.7);
+}
+.home-content{
+   margin-top: 20px;
+}
+.card{
+    background-color: #272b30 !important;
+}
+.cardHieght{
+    height: 350px;
+}
+.card{
+    opacity: 0.7;
+}
+.title{
+    font-size: normal;
+}
+span{
+    background-color: #486591 !important;
+}
+.card:hover{
+    opacity: 1;
+    scale: 1.05;
+    transition: 0.7s;
+    transition-timing-function: ease-in-out;
+}
+.hidden{
+    display: none;
+}
+.active{
+    color: #0591c4 !important;
+}
+ul li a:hover {
+    color: #0591c4 !important;
+}
